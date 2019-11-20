@@ -14,8 +14,15 @@ const Heroes = (props) => {
                 <span id="heroheaderstr" className={styles.herostr}>Strength</span></div>
             <div class="heroIcons">
                 <a id="link_kunkka" class="heroLink" href="http://www.dota2.com/hero/kunkka/">
-                    <img className={styles.heroIcon} id="kunkka" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_sb.png?v=5497724"/>
+                    <img width='295px' height='165px' id="kunkka" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_hphover.png?v=5497724"/>
                     </a>
+                <a id="link_sven" class="heroLink" href="http://www.dota2.com/hero/sven/">
+                    <img width='295px' height='165px' id="sven" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/sven_hphover.png?v=5497724"/>
+                    </a>
+                <a id="link_tiny" class="heroLink" href="http://www.dota2.com/hero/tiny/">
+                    <img width='295px' height='165px' id="tiny" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/tiny_hphover.png?v=5497724"/>
+                    </a>
+
             </div> 
         </div>
         <div class="heroagi">
