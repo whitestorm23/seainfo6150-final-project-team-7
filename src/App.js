@@ -8,6 +8,7 @@ import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Navigator from "./Navigator/Nav.jsx";
 
+
 const externalContent = {
   id: "article-1",
   title: "An Article",
@@ -19,7 +20,8 @@ function App() {
   return (
     <Router>
       <header>
-        <Navigator></Navigator>
+              <Navigator></Navigator>
+            
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
