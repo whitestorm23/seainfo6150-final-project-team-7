@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
-import Bar from "./Bar/Bar.jsx";
+import Heroes from "./Heroes/Heroes.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Navigator from "./Navigator/Nav.jsx";
@@ -26,14 +26,8 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/foo" exact component={Foo} />
-        <Route
-          path="/bar/:categoryId/:productId"
-          exact
-          render={({ match }) => (
-            <Bar
-              categoryId={match.params.categoryId}
-              productId={match.params.productId}
-            />
+        <Route path="/Heroes" exact component={Heroes} />
+        
           )}
         />
         <Route

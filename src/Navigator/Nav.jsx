@@ -15,7 +15,7 @@ const Navigator = () => {
                     <Link to="/foo">News</Link>
                 </li>
                 <li>
-                    <Link to="/bar/hats/sombrero">Heroes</Link>
+                    <Link to="/heroes">Heroes</Link>
                 </li>
                 <li>
                     <Link to="/baz">Tournaments</Link>
