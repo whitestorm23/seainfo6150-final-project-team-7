@@ -1,0 +1,22 @@
+.background {
+    background: linear-gradient(to bottom,#000000, #303030 70%);
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.ul > li {
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.ul > li > a {
+    color: #af9156;
+    text-decoration: none;
+}
