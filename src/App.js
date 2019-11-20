@@ -2,11 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
+import NewsPage from "./NewsPage/NewsPage.jsx";
 import Heroes from "./Heroes/Heroes.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Navigator from "./Navigator/Nav.jsx";
+
 
 const externalContent = {
   id: "article-1",
@@ -19,13 +20,14 @@ function App() {
   return (
     <Router>
       <header>
-        <Navigator></Navigator>
+              <Navigator></Navigator>
+            
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
+        <Route path="/NewsPage" exact component={NewsPage} />
         <Route path="/Heroes" exact component={Heroes} />
         
           )}
