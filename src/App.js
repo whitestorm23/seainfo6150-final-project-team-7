@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
+import NewsPage from "./NewsPage/NewsPage.jsx";
 import Heroes from "./Heroes/Heroes.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
@@ -27,7 +27,7 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
+        <Route path="/NewsPage" exact component={NewsPage} />
         <Route path="/Heroes" exact component={Heroes} />
         
           )}
