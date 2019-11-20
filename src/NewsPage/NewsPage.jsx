@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './News.module.css';
 import mainPhoto from './mainpage.jpg';
-import Footer from '../public/Footer';
 
 
 const NewsPage = () => {
@@ -27,7 +26,6 @@ const NewsPage = () => {
 
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
