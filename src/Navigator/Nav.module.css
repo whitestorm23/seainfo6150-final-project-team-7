@@ -1,5 +1,5 @@
 .background {
-    background: linear-gradient(to bottom,#000000, #303030 70%);
+    background: linear-gradient(to bottom,#000000,#303030 70%);
 }
 
 .ul {
@@ -12,11 +12,15 @@
     list-style-type: none;
     float: left;
     text-decoration: none;
-    padding: 20px;
+    padding: 19px;
     font-size: x-large;
 }
 
 .ul > li > a {
     color: #af9156;
     text-decoration: none;
+}
+
+.ul > li:hover {
+    border-bottom: 4px solid #5abbd4;
 }
