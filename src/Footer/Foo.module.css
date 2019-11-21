@@ -1,0 +1,36 @@
+.background {
+    height: 4.3em;
+    background: linear-gradient(to top,#000000, #303030 70%);
+}
+
+.icons {
+    margin: 1em;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.icons > li {
+    padding-left: 1em;
+    padding-right: 1em;
+    float: right;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.ul > li {
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+}
+
+.ul > li > a {
+    color: #af9156;
+    text-decoration: none;
+}
