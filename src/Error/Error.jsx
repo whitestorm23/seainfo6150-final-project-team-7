@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from './Error.module.css';
+import img from "./404.png";
 
 const Error = () => {
     return (
-        <div>
-            The error page
+        <div className={styles.background}>
+            <img width="100%" src={img}></img>
         </div>
     )
 }

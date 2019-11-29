@@ -1,5 +1,40 @@
 .body {
-    text-align: center;
     color: white;
-    background-color: #202020;
+    background-color: #303030;
+}
+
+.word {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.word:hover {
+    opacity: 1;
+    animation: gradient 2s;
+    -webkit-animation: gradient 2s;
+}
+
+@keyframes gradient {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes gradient {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.background {
+    position: relative;
 }
