@@ -51,7 +51,7 @@ const NewsPage = () => {
                         </ul>
 
                 <div class="dropdown" className={classes.dropdown}>
-                    <button class="dropbtn" className={classes.dropbtn}>Select A Hero's Name</button>
+                    <button class="dropbtn" className={classes.dropbtn}>Select A Year</button>
                     <div class="dropdown-content" className={classes.dropdown_content}>
                     
                         <a href="#" className={classes.dropdown_content_a}>2017</a>
