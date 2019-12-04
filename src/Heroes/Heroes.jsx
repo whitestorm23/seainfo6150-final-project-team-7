@@ -20,7 +20,7 @@ const Heroes = (props) => {
                 <a href="http://www.dota2.com/hero/earth_spirit/"className={styles.dropdown_content_a}>Earth Spirit</a>
                 <a href="http://www.dota2.com/hero/ember_spirit/"className={styles.dropdown_content_a}>Ember Spirit</a>
                 <a href="http://www.dota2.com/hero/monkey_king/"className={styles.dropdown_content_a}>Monkey King</a>
-                <a href="http://www.dota2.com/hero/nevermore/"className={styles.dropdown_content_a}>Nevermore</a>
+                <a href="/nevermore"className={styles.dropdown_content_a}>Nevermore</a>
                 <a href="http://www.dota2.com/hero/faceless_void/"className={styles.dropdown_content_a}>Faceless Void</a>
                 <a href="http://www.dota2.com/hero/meepo/"className={styles.dropdown_content_a}>Meepo</a>
                 <a href="http://www.dota2.com/hero/void_spirit/"className={styles.dropdown_content_a}>Void Spirit</a>
@@ -69,7 +69,7 @@ const Heroes = (props) => {
                 <a id="link_monkey_king" class="heroLink" href="http://www.dota2.com/hero/monkey_king/">
                     <img width='295px' height='165px' id="monkey_king" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_hphover.png?v=5497724"/>
                     </a>
-                <a id="link_nevermore" class="heroLink" href="http://www.dota2.com/hero/nevermore/">
+                <a id="link_nevermore" class="heroLink" href="/nevermore">
                     <img width='295px' height='165px' id="nevermore" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_hphover.png?v=5497724"/>
                     </a>
                 <a id="link_slark" class="heroLink" href="http://www.dota2.com/hero/slark/">
