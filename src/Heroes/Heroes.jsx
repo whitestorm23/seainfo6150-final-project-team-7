@@ -37,7 +37,7 @@ const Heroes = (props) => {
             <div id="heroheader">
                 <span id="heroheaderstr" className={styles.herostr}>Strength</span></div>
             <div class="heroIcons">
-                <a id="link_kunkka" class="heroLink" href="http://www.dota2.com/hero/kunkka/">
+                <a id="link_kunkka" class="heroLink" href="/kunkka">
                     <img width='295px' height='165px' id="kunkka" class="heroIcon" src="http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_hphover.png?v=5497724"/>
                     </a>
                 <a id="link_sven" class="heroLink" href="http://www.dota2.com/hero/sven/">
