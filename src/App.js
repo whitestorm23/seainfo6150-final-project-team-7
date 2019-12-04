@@ -10,6 +10,8 @@ import Navigator from "./Navigator/Nav.jsx";
 import About from "./Support/AboutUs.jsx";
 import Contact from "./Support/ContactUs.jsx";
 import Footer from "./Footer/Foo.jsx"
+import kunkka from "./Heroes/kunkka.jsx";
+
 
 
 const externalContent = {
@@ -31,6 +33,7 @@ function App() {
                 <Route path="/" exact component={Home} />
                 <Route path="/NewsPage" exact component={NewsPage} />
                 <Route path="/Heroes" exact component={Heroes} />
+                <Route path="/kunkka" exact component={kunkka} />
                 <Route path="/baz" exact render={() => <Baz content={externalContent} />} />
                 <Route path="/AboutUs" exact component={About} />
                 <Route path="/ContactUs" exact component={Contact} />

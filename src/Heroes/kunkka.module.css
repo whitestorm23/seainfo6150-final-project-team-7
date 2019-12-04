@@ -1,0 +1,51 @@
+.coco{
+    width: 100%;
+}
+
+.h1{
+    max-width: 100px;
+    margin: auto;
+    font-size: 100px;
+   
+}
+
+.img1{
+    width: 30%;
+    margin: auto;
+float: left;
+position:absolute;
+border-style: inset;
+}
+
+.bio{
+  
+    border: double;
+    font-size: xx-large;
+    
+
+}
+
+.heroSkill{
+    height: 10%;
+    width: 60%;
+    border-style: solid;
+    border-color: steelblue;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+
+.h3{
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.body{
+    background-color: rgb(183, 197, 209);
+}
+
+.ability{
+    border-style: groove;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
