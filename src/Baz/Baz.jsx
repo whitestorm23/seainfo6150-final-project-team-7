@@ -41,17 +41,7 @@ const Baz = () => {
                         <li><a href="#" className={classes.main_picture}><img src={photo9} width="300" height="200" /></a><span class="floatright">[2019-11-08]</span><a href="#" title="MidOne and ninjaboogie are teaming up for the next DPC Major qualifiers">Weird SEA hours are back on.</a></li>
                         <li><a href="#" className={classes.main_picture}><img src={photo10} width="300" height="200" /></a><span class="floatright">[2019-11-07]</span><a href="#" title="TNC Predator prey on Vici Gaming and win MDL Chengdu Major">TNC rose from the ashes of defeat against VG and will now be shrouded in glory.</a></li>
                     </ul>
-                    <div className={classes.dropdown}>
-                        <button className={classes.dropbtn}>Select A Hero's Name</button>
-                        <div className={classes.dropdown_content}>
-                            <a href="/kunkka" className={classes.dropdown_content_a}>2016</a>
-                            <a href="http://www.dota2.com/hero/sven/" className={classes.dropdown_content_a}>2017</a>
-                            <a href="http://www.dota2.com/hero/tiny/" className={classes.dropdown_content_a}>2018</a>
-                            <a href="http://www.dota2.com/hero/beastmaster/" className={classes.dropdown_content_a}>2019</a>
-                            <a href="http://www.dota2.com/hero/bristleback/" className={classes.dropdown_content_a}>2020</a>
-                         
-                        </div>
-                    </div>
+                    
 
                 </body>
 
