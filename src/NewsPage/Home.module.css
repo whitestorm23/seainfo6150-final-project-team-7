@@ -1,0 +1,36 @@
+.container {
+    box-shadow: inset 0 0 20px 10px #000000;
+    background-size: cover;
+}
+
+.video {
+    padding-top: 12em;
+    text-align: center;
+}
+
+.font {
+    text-shadow: black 0em 0.1em 0.2em;
+    color: #BD9F63;
+    margin: 0;
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+.button {
+    margin-top: 2em;
+    margin-bottom: 12em;
+    border-color: #BD9F63;
+    border-radius: 8px;
+    line-height: 1.5;
+    outline-style: none;
+    font-size: 1.2em;
+    color: #937341;
+    background-color: #111111;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 0 50px 10px #000000;
+}
+
+.button:hover {
+    color: #c4b998;
+}

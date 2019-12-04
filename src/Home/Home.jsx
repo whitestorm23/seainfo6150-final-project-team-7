@@ -43,6 +43,7 @@ const Home = () => {
                     <button className={styles.button} onClick={() => { window.location.href = '/NewsPage' }}>Start</button>
                 </div>
             </div>
+
         </div>
     )
 }
